@@ -1,12 +1,11 @@
-import { defineStore } from 'pinia';
-import { v4 as uuid } from 'uuid';
-import boardData from '~/data/board.json';
+import { defineStore } from "pinia";
+import { v4 as uuid } from "uuid";
+import boardData from "~/data/board.json";
 
-import { useStorage } from '@vueuse/core';
+import { useStorage } from "@vueuse/core";
 
 export const useBoardStore = defineStore("boardStore", () => {
   const board = useStorage("board", boardData);
-
   /**
    * Tasks
    */
