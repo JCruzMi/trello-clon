@@ -1,6 +1,6 @@
 # Trello basic clone with Nuxt 3
 
-[Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction)
+![Logo](https://github.com/JCruzMi/trello-clon/blob/master/public/trello.png?raw=true)
 
 ## Setup
 
@@ -18,4 +18,4 @@ Start the development server on `http://localhost:3000`:
 npm run dev
 ```
 
-![Logo]()
+[Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction)
