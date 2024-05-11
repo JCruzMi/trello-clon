@@ -7,14 +7,16 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages --dotfiles -d .output/public"
   },
   "dependencies": {
     "nuxt": "^3.11.2",
     "pinia": "^2.1.7",
     "uuid": "^9.0.1",
     "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
+    "vue-router": "^4.3.2",
+    "gh-pages": "^4.0.0"
   },
   "devDependencies": {
     "@formkit/auto-animate": "^0.8.2",
